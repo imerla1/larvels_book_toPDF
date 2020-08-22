@@ -1,3 +1,7 @@
+
+import sys
+assert sys.version_info >= (3, 0), "Please use python 3.x or later version"
+
 import requests
 import os
 from fpdf import FPDF
@@ -6,6 +10,8 @@ import threading
 import re
 
 # Total pages [1 - 222]
+
+assert sys.version_info >= (3, 0), "Please use python 3.x or later version"
 
 base_url = 'https://img.yumpu.com/54479513/{}/983x1270/learning-laravels-eloquent.jpg?quality=100'
 

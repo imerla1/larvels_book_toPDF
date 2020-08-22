@@ -9,7 +9,7 @@ import re
 
 base_url = 'https://img.yumpu.com/54479513/{}/983x1270/learning-laravels-eloquent.jpg?quality=100'
 
-all_urls = [base_url.format(page) for page in range(1, 10)] # All image urls
+all_urls = [base_url.format(page) for page in range(1, 222)] # All image urls
 
 pdf = FPDF()
 
